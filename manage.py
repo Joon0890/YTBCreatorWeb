@@ -20,3 +20,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+python manage.py makemigrations: 현재 models.py 상태와 DB에 기록된 마이그레이션 상태를 비교
+python manage.py migrate: 방금 만든 마이그레이션 파일을 읽는다. 그 안의 변경사항을 진짜로 DB에 적용한다.
+python manage.py runserver: 서버 실행 
+"""
