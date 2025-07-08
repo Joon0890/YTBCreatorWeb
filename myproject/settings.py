@@ -74,9 +74,6 @@ WSGI_APPLICATION = "myproject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-import pymysql
-pymysql.install_as_MySQLdb()
-
 import os
 from dotenv import load_dotenv
 load_dotenv()
